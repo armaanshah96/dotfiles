@@ -1,0 +1,32 @@
+[user]
+	name = Armaan Shah
+	email = armaanshah96@gmail.com
+[alias]
+  a  = add
+  b  = branch
+  br = branch
+  ci = commit
+  co = checkout
+  cp = cherry-pick
+  d  = diff
+  ds = diff --staged
+  l  = log --oneline
+  la = log --graph --all
+  lg = log --graph
+  lm = log --pretty=medium
+  ln = log --name-status
+  s  = status
+  st = status
+  su = submodule update --init --recursive
+[color]
+	diff = auto
+	branch = auto
+	status = auto
+[diff]
+  indentHeuristic = true
+[log]
+  date = format:%F %I:%M %p
+[stash]
+  showPatch = true
+[format]
+	pretty = format:%Cblue%cd %Cgreen%h %Creset%s %Cblue(%aN)%Cgreen%d
